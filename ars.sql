@@ -1,0 +1,10 @@
+CREATE DATABASE ars;
+USE ars;
+CREATE TABLE login(login_id CHAR(8) PRIMARY KEY, login_role_id CHAR(7), login_username VARCHAR(200), user_passowrd CHAR(64));
+CREATE TABLE user(user_id CHAR(8) PRIMARY KEY, user_name VARCHAR(100), user_mobile VARCHAR(20), user_email VARCHAR(200), user_address VARCHAR(200));
+CREATE TABLE roles(role_id CHAR(8) PRIMARY KEY, role_name VARCHAR(40), role_desc VARCHAR(500));
+CREATE TABLE permission(per_id CHAR(8) PRIMARY KEY, per_role_id CHAR(8), per_name VARCHAR(50), per_module VARCHAR(100));
+CREATE TABLE airlines_booking(ab_id CHAR(5) PRIMARY KEY, ab_type VARCHAR(7), ab_date CHAR(10), ab_desc VARCHAR(50), ab_pass_id CHAR(7));
+CREATE TABLE ticket(tckt_id CHAR(5) PRIMARY KEY, tckt_desc VARCHAR(100), tckt_date CHAR(10));
+CREATE TABLE passenger(p_id CHAR(7) PRIMARY KEY, p_password CHAR(64), p_name VARCHAR(100), p_address VARCHAR(200), p_mobile VARCHAR(20), p_email VARCHAR(200));
+CREATE TABLE airlines_enquiry(ae_id CHAR(9) PRIMARY KEY, ae_title VARCHAR(100), ae_desc VARCHAR(200), ae_date CHAR(10), ae_type VARCHAR(10));

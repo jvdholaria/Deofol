@@ -1,0 +1,8 @@
+ae_id,ae_title,ae_desc,ae_date,ae_type
+0KfmhO9Uq,Read,Read the information about your trip.,14-02-2023,Read
+qe3fSXG37,Search,Search for ticket as per your desired request.,30-03-2023,Read
+IiHbnE5rt,Print,Print the ticket.,05-09-2023,Read
+6XXa8TAWS,PNR Enquiry,Enquire and gather information about the status of your ticket.,25-08-2023,Read
+Gic3bfSVn,Payment Status,Enquire the status of the payments,31-12-2022,Read/Write
+LML3u40Vx,Boarding Status,Enquire the status of the boarding the flight.,15-11-2022,Read/Write
+bk1GH7sn0,Check-in Status,Enquire the status of the check-in at the airline counter.,11-03-2023,Read/Write
